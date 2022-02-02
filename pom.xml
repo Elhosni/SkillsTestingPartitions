@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.skillsTesting.java</groupId>
+  <artifactId>partitions</artifactId>
+  <version>1.0</version>
+  <description>TEST FAIT MAISON JAVA</description>
+  
+       <dependencies>
+        <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.12</version>
+           <scope>test</scope>
+        </dependency>
+     </dependencies> 
+     
+    <distributionManagement> 
+      <repository>
+        <id>internal.repo</id> 
+        <name>Temporary Staging Repository</name> 
+        <url>file://${project.build.directory}/mvn-artifact</url> 
+      </repository> 
+    </distributionManagement> 
+     
+</project>
