@@ -28,4 +28,11 @@ partitions\target\mvn-artifact\com\skillsTesting\java\partitions\1.0\partitions-
 	 
 ##Jar: partitions-1.0.jar
 Une copie du jar existe dans le repo.
-Ce jar peut être ajouté dans votre projet comme external jar, ou on crée un repository dans maven central. 
+Ce jar peut être ajouté dans votre projet comme external jar, 
+ou on crée un repository dans maven central et puis l'ajouter dans pom comme dépendence maven.
+
+## Ce projet est hosté par Github public: https://github.com/Elhosni/SkillsTestingPartitions.git
+
+
+
+ 
